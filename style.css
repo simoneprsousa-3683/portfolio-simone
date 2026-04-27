@@ -23,11 +23,21 @@ nav {
     z-index: 1000;
 }
 
+main ul {
+    margin-left: 40px; 
+    margin-bottom: 15px; 
+}
+
+main li {
+    margin-bottom: 5px; 
+}
+
+
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0;
+    padding: 15px 0;
     margin: 0;
 }
 
@@ -42,6 +52,7 @@ li {
 
 nav ul li {
     margin-left: 0 15px;
+    margin-bottom: 0;
 }
 
 nav ul li a {
