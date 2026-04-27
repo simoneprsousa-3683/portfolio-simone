@@ -17,7 +17,15 @@ nav {
     display: flex;
     flex-direction: column; 
     align-items: center;    
-    padding-bottom: 20px;  
+    padding-bottom: 10px;  
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+    margin: 0;
 }
 
 main ul {
@@ -27,15 +35,6 @@ main ul {
 
 main li {
     margin-bottom: 5px;
-}
-
-
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 15px 0;
-    margin: 0;
 }
 
 ul {
@@ -55,6 +54,15 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+section {
+    scroll-margin-top: 120px; 
+}
+
+
+body {
+    padding-top: 110px; 
 }
 
 /* Espaçamento para o efeito de âncora*/
