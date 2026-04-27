@@ -25,3 +25,8 @@ document.getElementById('meuFormulario').addEventListener('submit', function(eve
     alert("Mensagem enviada com sucesso!");
     this.reset(); 
 });
+
+
+document.getElementById('toggle-theme').addEventListener('click', function() {
+    document.body.classList.toggle('dark-mode');
+});

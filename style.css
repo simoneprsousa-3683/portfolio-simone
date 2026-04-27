@@ -5,6 +5,15 @@
     box-sizing: border-box;
 }
 
+body.dark-mode {
+    background-color: #1a1a1a;
+    color: white;
+}
+body.dark-mode section {
+    background-color: #333;
+    color: white;
+}
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
