@@ -1,7 +1,5 @@
 
-/* Validação do formulário de contato conforme requisitos da Atividade Prática.
-   Verifica preenchimento, formato de e-mail e simula o envio.
-*/
+// Validação do formulário de contato : Verifica preenchimento, formato de e-mail e simula o envio. 
 document.getElementById('meuFormulario').addEventListener('submit', function(event) {
     // Impede o comportamento padrão de recarregar a página
     event.preventDefault();
