@@ -1,0 +1,92 @@
+
+/* RESET BÁSICO: Garante que o site ocupe a tela corretamente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding-top: 60px; /* Evita que o conteúdo fique sob o menu fixo */
+}
+
+/* MENU FIXO: Navegação sempre visível no topo [cite: 18, 31] */
+nav {
+    background-color: #2c3e50;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 15px 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* SEÇÕES: Espaçamento para o efeito de âncora [cite: 40, 41] */
+section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2c3e50;
+    border-bottom: 2px solid #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* ESTILO DO PORTFÓLIO (PROJETOS) */
+.projeto {
+    margin-bottom: 25px;
+    padding: 15px;
+    border-left: 5px solid #2c3e50;
+    background-color: #f9f9f9;
+}
+
+/* FORMULÁRIO DE CONTATO: Boa diagramação [cite: 89, 98] */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #2c3e50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #34495e;
+}
