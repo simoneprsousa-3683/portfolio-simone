@@ -30,8 +30,17 @@ nav ul {
     padding: 15px 0;
 }
 
+ul {
+    margin-left: 40px; /* Aumenta o afastamento da margem esquerda */
+    margin-bottom: 15px; /* Adiciona um espaço abaixo da lista */
+}
+
+li {
+    margin-bottom: 5px; /* Espaçamento entre um item e outro */
+}
+
 nav ul li {
-    margin: 0 40px;
+    margin-left: 0 60px;
 }
 
 nav ul li a {
