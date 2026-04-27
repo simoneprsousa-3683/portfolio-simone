@@ -26,7 +26,18 @@ document.getElementById('meuFormulario').addEventListener('submit', function(eve
     this.reset(); 
 });
 
+/* Implementação da escolha de tema (Claro/Escuro) conforme sugestão do PDF */
+const themeBtn = document.getElementById('toggle-theme');
+const themeIcon = document.getElementById('theme-icon');
 
-document.getElementById('toggle-theme').addEventListener('click', function() {
+themeBtn.addEventListener('click', () => {
+    // Alterna a classe dark-mode no body
     document.body.classList.toggle('dark-mode');
+    
+    // Altera o ícone entre Sol e Lua
+    if (document.body.classList.contains('dark-mode')) {
+        themeIcon.textContent = '☀️'; // Ícone para voltar ao claro
+    } else {
+        themeIcon.textContent = '🌙'; // Ícone para mudar para escuro
+    }
 });

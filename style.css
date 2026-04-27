@@ -4,14 +4,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body.dark-mode {
-    background-color: #1a1a1a;
+/* Estilo do Botão de Tema Claro/Escuro*/
+#toggle-theme {
+    background: none;
+    border: 1px solid white;
     color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 1.2rem;
 }
-body.dark-mode section {
-    background-color: #333;
+
+/* Estilo do Botão de Tema */
+#toggle-theme {
+    background: none;
+    border: 1px solid white;
     color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
+/* MODO ESCURO */
+/* Quando o body tiver a classe .dark-mode, essas regras serão aplicadas */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-mode section {
+    background-color: #1e1e1e;
+    color: #ffffff;
+    box-shadow: 0 2px 5px rgba(255,255,255,0.1);
+}
+
+body.dark-mode h1 {
+    color: #bb86fc;
+    border-bottom: 2px solid #bb86fc;
+}
+
+body.dark-mode .projeto {
+    background-color: #2c2c2c;
+    border-left: 5px solid #bb86fc;
+}
+
+body.dark-mode nav {
+    background-color: #000000;
 }
 
 body {
