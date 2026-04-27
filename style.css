@@ -5,17 +5,6 @@
     box-sizing: border-box;
 }
 
-/* Estilo do Botão de Tema */
-#toggle-theme {
-    background: none;
-    border: 1px solid white;
-    color: white;
-    cursor: pointer;
-    padding: 5px 10px;
-    border-radius: 20px;
-    margin-left: 20px;
-    font-size: 1.2rem;
-}
 
 
 /* Navegação sempre visível no topo*/
@@ -25,6 +14,10 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    padding-bottom: 10px;  
 }
 
 main ul {
@@ -115,6 +108,19 @@ button {
 button:hover {
     background-color: #34495e;
 }
+
+/* Estilo do Botão de Tema */
+#toggle-theme {
+    background: none;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-size: 1.2rem;
+}
+
 
 /* MODO ESCURO */
 
