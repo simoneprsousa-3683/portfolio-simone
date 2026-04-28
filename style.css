@@ -166,3 +166,18 @@ body {
     padding-top: 60px;
     /* Evita que o conteúdo fique sob o menu fixo */
 }
+
+@media (max-width: 768px) {
+    section {
+        scroll-margin-top: 160px; 
+    }
+
+    body {
+        padding-top: 150px;
+    }
+    
+    nav ul li {
+        margin: 0 10px;
+        font-size: 0.9rem;
+    }
+}
